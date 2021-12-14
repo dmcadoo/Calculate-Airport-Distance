@@ -16,5 +16,5 @@ While doing a similar sort on "Arrival Code" we see that similar Lat/Lon s do 
 At this point, I would be skeptical of the entire data set of Lat/Lon Departing and Arriving. The data would need to be corrected in the internal database, and resampled. 
 
 If the data for Lat/Lon was correct we would then have to calculate distances from airport to airport using a great circle distance trigonometric function. I was unaware of how to do this so I googled for the equation.
-Searching stackoverflow for a python version of the equation, I found one that could iterate through the database.
-running calculation and adding new column "distance" to every row. 
+Searching stackoverflow for a python version of the equation, I found one that could iterate through the database 
+running the calculation and adding new column "distance" to every row. 
